@@ -1,0 +1,52 @@
+section{
+   background-color:rgb(28, 27, 27);
+}
+descripcion{
+   width: 600px;
+   height: 400px;
+}
+
+img{
+    width: 550px;
+    height: 500px;
+    box-shadow: rgb(255, 1, 208) 0px 22px 70px 4px;
+     border: solid rgb(128, 126, 126) 3px;
+    border-radius: 5px;
+ }
+ div{
+     
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+ }
+ 
+.logo{
+   width: 500px;
+   margin-top: 25px;
+   height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border:none;
+   box-shadow: none;
+}
+h3{
+   color: pink;
+}
+h4{
+   color: pink;
+   font-size: xx-large;
+}
+p{
+   color: pink;
+   font-size: xx-large;
+   width: bold;
+}
+.descripcion{
+   width: 600px;
+
+}

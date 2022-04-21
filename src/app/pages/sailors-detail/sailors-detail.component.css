@@ -1,0 +1,41 @@
+section{
+   background-color: rgb(250, 200, 209);
+}
+
+
+img{
+    width: 550px;
+    height: 500px;
+    box-shadow: rgb(255, 1, 208) 0px 22px 70px 4px;
+     border: solid black 3px;
+    border-radius: 5px;
+ }
+ div{
+     
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+ }
+ 
+.logo{
+   width: 500px;
+   margin-top: 25px;
+   height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border:none;
+   box-shadow: none;
+}
+.descripcion{
+   width: 600px;
+   font-size: xx-large;
+   
+}
+h3{
+   font-size: xx-large;
+}

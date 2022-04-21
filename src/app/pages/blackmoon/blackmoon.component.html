@@ -1,0 +1,9 @@
+<section>
+ 
+    <h1> 美少女戦士セーラームーン</h1>
+    <figure *ngFor="let sister of sisters">
+      <h2> {{sister.name}}</h2>
+      <img src="{{sister.photo}}" alt="image"/>
+      <a [routerLink]="['/sister/', sister.id]">more...</a>
+    </figure>
+</section>
